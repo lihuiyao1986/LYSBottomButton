@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48AAEBBB1EA7684C00C9E7D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAEBBA1EA7684C00C9E7D9 /* main.m */; };
+		48AAEBBE1EA7684C00C9E7D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAEBBD1EA7684C00C9E7D9 /* AppDelegate.m */; };
+		48AAEBC11EA7684C00C9E7D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAEBC01EA7684C00C9E7D9 /* ViewController.m */; };
+		48AAEBC41EA7684C00C9E7D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AAEBC21EA7684C00C9E7D9 /* Main.storyboard */; };
+		48AAEBC61EA7684C00C9E7D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AAEBC51EA7684C00C9E7D9 /* Assets.xcassets */; };
+		48AAEBC91EA7684C00C9E7D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AAEBC71EA7684C00C9E7D9 /* LaunchScreen.storyboard */; };
+		48AAEBD31EA7687900C9E7D9 /* LYSBottomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAEBD21EA7687900C9E7D9 /* LYSBottomButton.m */; };
+		48AAEBD61EA76EEC00C9E7D9 /* LYSRightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAEBD51EA76EEC00C9E7D9 /* LYSRightButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48AAEBB61EA7684C00C9E7D9 /* LYSBottomButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSBottomButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AAEBBA1EA7684C00C9E7D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48AAEBBC1EA7684C00C9E7D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48AAEBBD1EA7684C00C9E7D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48AAEBBF1EA7684C00C9E7D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48AAEBC01EA7684C00C9E7D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48AAEBC31EA7684C00C9E7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48AAEBC51EA7684C00C9E7D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48AAEBC81EA7684C00C9E7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48AAEBCA1EA7684C00C9E7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48AAEBD11EA7687900C9E7D9 /* LYSBottomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSBottomButton.h; sourceTree = "<group>"; };
+		48AAEBD21EA7687900C9E7D9 /* LYSBottomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSBottomButton.m; sourceTree = "<group>"; };
+		48AAEBD41EA76EEC00C9E7D9 /* LYSRightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSRightButton.h; sourceTree = "<group>"; };
+		48AAEBD51EA76EEC00C9E7D9 /* LYSRightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSRightButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48AAEBB31EA7684C00C9E7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48AAEBAD1EA7684C00C9E7D9 = {
+			isa = PBXGroup;
+			children = (
+				48AAEBB81EA7684C00C9E7D9 /* LYSBottomButton */,
+				48AAEBB71EA7684C00C9E7D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48AAEBB71EA7684C00C9E7D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48AAEBB61EA7684C00C9E7D9 /* LYSBottomButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48AAEBB81EA7684C00C9E7D9 /* LYSBottomButton */ = {
+			isa = PBXGroup;
+			children = (
+				48AAEBD01EA7686B00C9E7D9 /* LYSBottomButton */,
+				48AAEBBC1EA7684C00C9E7D9 /* AppDelegate.h */,
+				48AAEBBD1EA7684C00C9E7D9 /* AppDelegate.m */,
+				48AAEBBF1EA7684C00C9E7D9 /* ViewController.h */,
+				48AAEBC01EA7684C00C9E7D9 /* ViewController.m */,
+				48AAEBC21EA7684C00C9E7D9 /* Main.storyboard */,
+				48AAEBC51EA7684C00C9E7D9 /* Assets.xcassets */,
+				48AAEBC71EA7684C00C9E7D9 /* LaunchScreen.storyboard */,
+				48AAEBCA1EA7684C00C9E7D9 /* Info.plist */,
+				48AAEBB91EA7684C00C9E7D9 /* Supporting Files */,
+			);
+			path = LYSBottomButton;
+			sourceTree = "<group>";
+		};
+		48AAEBB91EA7684C00C9E7D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48AAEBBA1EA7684C00C9E7D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48AAEBD01EA7686B00C9E7D9 /* LYSBottomButton */ = {
+			isa = PBXGroup;
+			children = (
+				48AAEBD11EA7687900C9E7D9 /* LYSBottomButton.h */,
+				48AAEBD21EA7687900C9E7D9 /* LYSBottomButton.m */,
+				48AAEBD41EA76EEC00C9E7D9 /* LYSRightButton.h */,
+				48AAEBD51EA76EEC00C9E7D9 /* LYSRightButton.m */,
+			);
+			path = LYSBottomButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48AAEBB51EA7684C00C9E7D9 /* LYSBottomButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48AAEBCD1EA7684C00C9E7D9 /* Build configuration list for PBXNativeTarget "LYSBottomButton" */;
+			buildPhases = (
+				48AAEBB21EA7684C00C9E7D9 /* Sources */,
+				48AAEBB31EA7684C00C9E7D9 /* Frameworks */,
+				48AAEBB41EA7684C00C9E7D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSBottomButton;
+			productName = LYSBottomButton;
+			productReference = 48AAEBB61EA7684C00C9E7D9 /* LYSBottomButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48AAEBAE1EA7684C00C9E7D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Goldcard;
+				TargetAttributes = {
+					48AAEBB51EA7684C00C9E7D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 48AAEBB11EA7684C00C9E7D9 /* Build configuration list for PBXProject "LYSBottomButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48AAEBAD1EA7684C00C9E7D9;
+			productRefGroup = 48AAEBB71EA7684C00C9E7D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48AAEBB51EA7684C00C9E7D9 /* LYSBottomButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48AAEBB41EA7684C00C9E7D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AAEBC91EA7684C00C9E7D9 /* LaunchScreen.storyboard in Resources */,
+				48AAEBC61EA7684C00C9E7D9 /* Assets.xcassets in Resources */,
+				48AAEBC41EA7684C00C9E7D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48AAEBB21EA7684C00C9E7D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AAEBC11EA7684C00C9E7D9 /* ViewController.m in Sources */,
+				48AAEBD31EA7687900C9E7D9 /* LYSBottomButton.m in Sources */,
+				48AAEBBE1EA7684C00C9E7D9 /* AppDelegate.m in Sources */,
+				48AAEBD61EA76EEC00C9E7D9 /* LYSRightButton.m in Sources */,
+				48AAEBBB1EA7684C00C9E7D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48AAEBC21EA7684C00C9E7D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48AAEBC31EA7684C00C9E7D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48AAEBC71EA7684C00C9E7D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48AAEBC81EA7684C00C9E7D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48AAEBCB1EA7684C00C9E7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48AAEBCC1EA7684C00C9E7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48AAEBCE1EA7684C00C9E7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYSBottomButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lys.test.LYSBottomButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48AAEBCF1EA7684C00C9E7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYSBottomButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lys.test.LYSBottomButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48AAEBB11EA7684C00C9E7D9 /* Build configuration list for PBXProject "LYSBottomButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48AAEBCB1EA7684C00C9E7D9 /* Debug */,
+				48AAEBCC1EA7684C00C9E7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48AAEBCD1EA7684C00C9E7D9 /* Build configuration list for PBXNativeTarget "LYSBottomButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48AAEBCE1EA7684C00C9E7D9 /* Debug */,
+				48AAEBCF1EA7684C00C9E7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48AAEBAE1EA7684C00C9E7D9 /* Project object */;
+}
